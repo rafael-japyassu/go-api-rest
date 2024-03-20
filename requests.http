@@ -1,0 +1,29 @@
+# Find All
+GET http://localhost:8080/api/personalities
+
+###
+
+# Create
+POST http://localhost:8080/api/personalities
+Content-Type: application/json
+
+{
+  "name": "Rafael Japyassu",
+  "history": "Minha história..."
+}
+
+###
+
+# Delete
+DELETE  http://localhost:8080/api/personalities/3
+
+###
+
+# Update
+PUT http://localhost:8080/api/personalities/4
+Content-Type: application/json
+
+{
+  "name": "Rafael Japyassu",
+  "history": "Minha história atualizada..."
+}
